@@ -1,39 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Política de Privacidad - Radio Oasis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Radio Oasis 98.1 FM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            padding: 40px 20px;
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 880px;
+            width: 100%;
+            background: #ffffff;
+            padding: 50px 60px;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #0a1e3c;
+            letter-spacing: -0.5px;
+            margin: 0;
+        }
+
+        .station-badge {
+            display: inline-block;
+            background: #eef2ff;
+            color: #1e4a8a;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 4px 14px;
+            border-radius: 30px;
+        }
+
+        .update-date {
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 32px;
+            border-bottom: 2px solid #eef2f6;
+            padding-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #0a1e3c;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .badge {
+            background: #1e4a8a;
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 0 10px;
+            border-radius: 20px;
+            line-height: 24px;
+        }
+
+        p, li {
+            color: #334155;
+            font-size: 16px;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-top: 4px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+        }
+
+        .permisos-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .permiso-item {
+            background: #f8fafc;
+            padding: 10px 16px;
+            border-radius: 12px;
+            border-left: 4px solid #1e4a8a;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .contacto-box {
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 24px 28px;
+            margin-top: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px 40px;
+        }
+
+        .contacto-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+        }
+
+        .contacto-item .emoji {
+            font-size: 20px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eef2f6;
+            text-align: center;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .footer strong {
+            color: #0a1e3c;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 26px;
+            }
+            .permisos-grid {
+                grid-template-columns: 1fr;
+            }
+            .contacto-box {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Política de Privacidad</h1>
-    <p><strong>Radio Oasis 98.1 FM - Nicaragua</strong></p>
-    <p><strong>Última actualización:</strong> Septiembre 2026</p>
+    <div class="container">
 
-    <h2>1. Información que Recopilamos</h2>
-    <p>Nuestra aplicación está diseñada para streaming de audio en vivo y recopila la menor cantidad de datos.</p>
+        <div class="header">
+            <h1>📻 Política de Privacidad</h1>
+        </div>
+        <div class="station-badge">Radio Oasis 98.1 FM · Nicaragua</div>
+        <div class="update-date">📅 Última actualización: Septiembre 2026</div>
 
-    <h2>2. Uso de la Información</h2>
-    <p>La información recopilada se utiliza exclusivamente para:</p>
-    <ul>
-        <li>Proveer la señal de streaming de audio sin interrupciones.</li>
-        <li>Optimizar la calidad de audio.</li>
-        <li>Corregir errores técnicos.</li>
-    </ul>
+        <h2><span class="badge">1</span> Información que Recopilamos</h2>
+        <p>Nuestra aplicación está diseñada para streaming de audio en vivo y recopila la menor cantidad de datos posible.</p>
+        <ul>
+            <li><strong>Datos de uso técnico:</strong> Dirección IP, modelo del dispositivo, versión del sistema operativo.</li>
+            <li><strong>Información no personal:</strong> Estadísticas anónimas sobre el número de oyentes activos.</li>
+        </ul>
 
-    <h2>3. Permisos de la Aplicación</h2>
-    <ul>
-        <li><strong>Internet:</strong> Para transmitir audio en vivo.</li>
-        <li><strong>Servicio en primer plano:</strong> Para reproducir en segundo plano.</li>
-    </ul>
+        <h2><span class="badge">2</span> Uso de la Información</h2>
+        <p>La información recopilada se utiliza exclusivamente para:</p>
+        <ul>
+            <li>Proveer la señal de streaming de audio sin interrupciones.</li>
+            <li>Optimizar la calidad de audio y la compatibilidad con dispositivos.</li>
+            <li>Corregir errores técnicos y mejorar el rendimiento.</li>
+        </ul>
 
-    <h2>4. Terceros y Publicidad</h2>
-    <p>No compartimos información personal con terceros.</p>
+        <h2><span class="badge">3</span> Permisos de la Aplicación</h2>
+        <p>Para ofrecer una experiencia de audio adecuada, la aplicación solicita los siguientes permisos:</p>
+        <div class="permisos-grid">
+            <div class="permiso-item">🌐 Internet</div>
+            <div class="permiso-item">📡 Servicio en primer plano</div>
+            <div class="permiso-item">📱 Estado del teléfono</div>
+            <div class="permiso-item">🔔 Notificaciones</div>
+        </div>
 
-    <h2>5. Contacto</h2>
-    <p>📧 info@radiooasis.com</p>
-    <p>📱 +505 8872-8344</p>
+        <h2><span class="badge">4</span> Terceros y Publicidad</h2>
+        <p>No vendemos, alquilamos ni compartimos información personal identificable con terceros. La aplicación no muestra publicidad.</p>
 
-    <hr>
-    <p><strong>Radio Oasis 98.1 FM</strong> – Nicaragua 🇳🇮</p>
+        <h2><span class="badge">5</span> Seguridad</h2>
+        <p>Implementamos medidas técnicas estándar para proteger la transmisión de datos y garantizar la confidencialidad de la información.</p>
+
+        <h2><span class="badge">6</span> Contacto</h2>
+        <p>Si tienes dudas o consultas sobre esta Política de Privacidad, puedes contactarnos a través de los siguientes medios:</p>
+        <div class="contacto-box">
+            <span class="contacto-item"><span class="emoji">📧</span> info@radiooasis.com</span>
+            <span class="contacto-item"><span class="emoji">📱</span> +505 8872-8344</span>
+            <span class="contacto-item"><span class="emoji">🌐</span> https://www.radiooasisfm.com</span>
+            <span class="contacto-item"><span class="emoji">📍</span> Nicaragua</span>
+        </div>
+
+        <div class="footer">
+            <p><strong>Radio Oasis 98.1 FM</strong> – "Sintonía que transforma tu vida"</p>
+            <p>📍 Nicaragua 🇳🇮</p>
+        </div>
+
+    </div>
 </body>
 </html>
